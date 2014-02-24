@@ -1,0 +1,26 @@
+body {
+    font-family: sans-serif;
+}
+
+#container {
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+#pet-container {
+    width: 200px;
+    margin: 0 auto;
+    background: #33ccff;
+}
+
+.pet-command {
+    width: 30%;
+    display: inline-block;
+    height: 100px;
+}
+
+.pet-command h2 {
+    font-size: 20px;
+    width: 100%;
+}
