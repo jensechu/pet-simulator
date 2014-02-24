@@ -19,17 +19,17 @@
       </div>
 
       <div id="pet-commands">
-	<div class="pet-command">
+	<div class="pet-command" data-stat="appetite">
 	  <img src="images/fish.png">
 	  <h2>fish</h2>
 	</div>
 
-	<div class="pet-command">
+	<div class="pet-command" data-stat="playful">
 	  <img src="images/yarn.png">
 	  <h2>yarn</h2>
 	</div>
 
-	<div class="pet-command">
+	<div class="pet-command" data-stat="crazy">
 	  <img src="images/catnip.png">
 	  <h2>catnip</h2>
 	</div>
@@ -37,31 +37,30 @@
 
       <div id="pet-stats">
 	<div class="pet-stat-meter">
-          <h2 class="pet-stat-label">happiness</h2>
+          <h2 class="pet-stat-label">appetite</h2>
           <div class="pet-stat-bar">
-            <div data-mood="happiness" class="pet-stat-mood-level"> &nbsp;</div>
+            <div data-stat="appetite" data-amount="10" class="pet-stat-mood-level"> &nbsp;</div>
             {||||||||||}
           </div>
         </div>
+
+	<div class="pet-stat-meter">
+          <h2 class="pet-stat-label">playful</h2>
+          <div class="pet-stat-bar">
+            <div data-stat="playful" data-amount="10" class="pet-stat-mood-level"> &nbsp;</div>
+            {||||||||||}
+          </div>
+	</div>
+
+	<div class="pet-stat-meter">
+          <h2 class="pet-stat-label">crazy</h2>
+          <div class="pet-stat-bar">
+            <div data-stat="crazy" data-amount="10" class="pet-stat-mood-level"> &nbsp;</div>
+            {||||||||||}
+          </div>
+	</div>
       </div>
 
-      <div class="pet-stat-meter">
-        <h2 class="pet-stat-label">playful</h2>
-        <div class="pet-stat-bar">
-          <div data-mood="happiness" class="pet-stat-mood-level"> &nbsp;</div>
-          {||||||||||}
-        </div>
-      </div>
-
-      <div class="pet-stat-meter">
-        <h2 class="pet-stat-label">crazy</h2>
-        <div class="pet-stat-bar">
-          <div data-mood="happiness" class="pet-stat-mood-level"> &nbsp;</div>
-          {||||||||||}
-        </div>
-      </div>
     </div>
-</div>
-
-</body>
+  </body>
 </html>
